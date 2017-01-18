@@ -14,7 +14,7 @@ $I->submitCustomerDataForm();
 
 $I->seeIAmInListCustomersUi();
 
-$I = \AcceptanceTester\CRMUserSteps($scenario);
+$I = new \AcceptanceTester\CRMUserSteps($scenario);
 $I->wantTo('query the customer info using his phone number');
 
 $I->amInQueryCustomerUi();
