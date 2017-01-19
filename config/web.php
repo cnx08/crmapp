@@ -1,7 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: USER
- * Date: 19.01.2017
- * Time: 14:50
- */
+return [
+    'id' => 'crmapp',
+    'basePath' =>realpath(__DIR__. '/../'),
+    'components' => [
+        'request' => [
+            'cookieValidationKey' => 'your secret key here',
+        ],
+    ],];
