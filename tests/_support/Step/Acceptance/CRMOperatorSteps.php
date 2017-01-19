@@ -38,4 +38,10 @@ class CRMOperatorSteps extends \AcceptanceTester
         $I = $this;
         $I->seeCurrentUrlMatches('/customers/');
     }
+
+    function amInListCustomersUi()
+    {
+        $I = $this;
+        $I->amOnPage('/customers');
+    }
 }
