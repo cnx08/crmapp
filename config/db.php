@@ -1,7 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: USER
- * Date: 19.01.2017
- * Time: 17:03
- */
+return [
+    'class' => '\yii\db\Connection',
+    'dsn' => 'pgsql:host=localhost;port=5432;dbname=crmapp',
+    'username' => 'postgres',
+    'password' => 'deparol'
+];
