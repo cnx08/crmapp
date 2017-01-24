@@ -1,13 +1,17 @@
 <?php
 namespace app\controllers;
 use yii\web\Controller;
+use app\models\customer\CustomerRecord;
+use app\models\customer\PhoneRecord;
+use app\models\customer\Customer;
+use app\models\customer\Phone;
 
 class CustomersController extends Controller
 {
     function actionIndex()
     {
-        //$records = $this->getRecordsAccordingToQuery();
-        //$this->render('index', compact('records'));
+        $records = $this->getRecordsAccordingToQuery();
+        $this->render('index', compact('records'));
     }
     private function store(Customer $customer)
     {
@@ -32,6 +36,11 @@ class CustomersController extends Controller
         $name = $customer_record->name;
         $birth_date = new \DateTime($customer_record->birth_date);
 
+        $customer = new Customer($name,$birth_date);
+        $customer->notes = $customer_record->notes;
+        $customer->phones[] = new Phone($phone_record->number);
+
+        return $customer;
 
     }
 
