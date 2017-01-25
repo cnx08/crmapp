@@ -5,7 +5,9 @@ use app\models\customer\CustomerRecord;
 use app\models\customer\PhoneRecord;
 use app\models\customer\Customer;
 use app\models\customer\Phone;
-
+use yii\data\ArrayDataProvider;
+//use yii\filters\AccessControl;
+use Yii;
 class CustomersController extends Controller
 {
     function actionIndex()
@@ -13,6 +15,25 @@ class CustomersController extends Controller
         $records = $this->findRecordsByQuery();
         return $this->render('index', compact('records'));
     }
+
+    public function actionAdd()
+    {
+        $customer = new CustomerRecord;
+        $phone = new PhoneRecord;
+
+        if ($this->load($customer, $phone, $_POST))
+        {
+            $this->store($this->makeCustomer($customer,$phone));
+            return $this->redirect('/customers');
+        }
+        return $this->render('add', compact('customer','phone'));
+    }
+
+    public function  actionQuery()
+    {
+        return $this->render('query');
+    }
+
     private function store(Customer $customer)
     {
         $customer_record = new CustomerRecord();
@@ -44,18 +65,6 @@ class CustomersController extends Controller
 
     }
 
-    public function actionAdd()
-    {
-        $customer = new CustomerRecord;
-        $phone = new PhoneRecord;
-
-        if ($this->load($customer, $phone, $_POST))
-        {
-            $this->store($this->makeCustomer($customer,$phone));
-            return $this->redirect('/customers');
-        }
-        return $this->render('add', compact('customer', 'phone'));
-    }
 
     private function load(CustomerRecord $customer, PhoneRecord $phone, array $post)
     {
@@ -91,10 +100,5 @@ class CustomersController extends Controller
             return [];
 
         return [$this->makeCustomer($customer_record, $phone_record)];
-    }
-
-    public function  actionQuery()
-    {
-        return $this->render('query');
     }
 }

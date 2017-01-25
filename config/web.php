@@ -4,7 +4,7 @@ return [
     'basePath' =>realpath(__DIR__. '/../'),
     'components' => [
         'request' => [
-            'cookieValidationKey' => 'your secret key here',
+            'cookieValidationKey' => '123',
         ],
         'db' => require(__DIR__ . '/db.php'),
         'urlManager' => [
