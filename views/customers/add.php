@@ -13,7 +13,7 @@ use yii\widgets\ActiveForm;
  * @var PhoneRecord $phone
  */
 
-$form = ActiveForm::begin(['id' => 'add-customer=form',]);
+$form = ActiveForm::begin(['id' => 'add-customer-form',]);
 echo $form->errorSummary([$customer, $phone]);
 echo $form->field($customer, 'name');
 echo $form->field($customer, 'birth_date');

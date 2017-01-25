@@ -2,11 +2,279 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbc3fdee-d53d-4d3d-93ed-22863fddf162" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layouts/main.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/customer/add.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/customers/_customer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/customers/index.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/inputmask/inputmask.date.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/inputmask/inputmask.dependencyLib.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/inputmask/inputmask.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/inputmask/inputmask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/inputmask/inputmask.numeric.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/inputmask/inputmask.phone.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/inputmask/inputmask.regex.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/inputmask/jquery.inputmask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/jquery.inputmask.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/min/inputmask/inputmask.date.extensions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/min/inputmask/inputmask.dependencyLib.jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/min/inputmask/inputmask.extensions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/min/inputmask/inputmask.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/min/inputmask/inputmask.numeric.extensions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/min/inputmask/inputmask.phone.extensions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/min/inputmask/inputmask.regex.extensions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/min/inputmask/jquery.inputmask.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/extra/bindings/inputmask.binding.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/extra/dependencyLibs/inputmask.dependencyLib.jqlite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/extra/dependencyLibs/inputmask.dependencyLib.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/extra/phone-codes/phone-be.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/extra/phone-codes/phone-codes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/extra/phone-codes/phone-nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/extra/phone-codes/phone-ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask/extra/phone-codes/phone-uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/AUTHORS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/dist/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/dist/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/dist/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/external/sizzle/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/external/sizzle/dist/sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/external/sizzle/dist/sizzle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/external/sizzle/dist/sizzle.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/ajax/jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/ajax/load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/ajax/parseJSON.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/ajax/parseXML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/ajax/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/ajax/var/location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/ajax/var/nonce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/ajax/var/rquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/ajax/xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/attributes/attr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/attributes/classes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/attributes/prop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/attributes/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/attributes/val.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/core/access.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/core/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/core/parseHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/core/ready.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/core/var/rsingleTag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/css/addGetHookIf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/css/adjustCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/css/curCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/css/defaultDisplay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/css/hiddenVisibleSelectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/css/showHide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/css/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/css/var/cssExpand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/css/var/getStyles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/css/var/isHidden.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/css/var/rmargin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/css/var/rnumnonpx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/css/var/swap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/data/Data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/data/var/acceptData.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/data/var/dataPriv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/data/var/dataUser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/effects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/effects/Tween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/effects/animatedSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/event/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/event/alias.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/event/focusin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/event/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/event/trigger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/exports/amd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/exports/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/intro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/manipulation/_evalUrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/manipulation/buildFragment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/manipulation/getAll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/manipulation/setGlobalEval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/manipulation/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/manipulation/var/rcheckableType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/manipulation/var/rscriptType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/manipulation/var/rtagName.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/manipulation/wrapMap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/outro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/queue/delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/selector-native.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/selector-sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/selector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/traversing/findFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/traversing/var/dir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/traversing/var/rneedsContext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/traversing/var/siblings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/var/arr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/var/class2type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/var/concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/var/document.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/var/documentElement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/var/hasOwn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/var/indexOf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/var/pnum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/var/push.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/var/rcssNum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/var/rnotwhite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/var/slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/var/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/var/toString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/jquery/src/wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/punycode/LICENSE-MIT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/punycode/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/punycode/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/punycode/punycode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/punycode/punycode.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/yii2-pjax/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/yii2-pjax/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/yii2-pjax/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/yii2-pjax/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/yii2-pjax/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/yii2-pjax/jquery.pjax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bower-asset/yii2-pjax/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/build/phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/PHPUnit_Framework_CoveredCodeNotExecutedException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/PHPUnit_Framework_MissingCoversAnnotationException.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/web.php" afterPath="$PROJECT_DIR$/config/web.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/CustomersController.php" afterPath="$PROJECT_DIR$/controllers/CustomersController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/.travis.yml" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/RoboFile.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/RoboFile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/codeception.yml" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/codeception.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/composer.json" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/06-ModulesAndHelpers.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/06-ModulesAndHelpers.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/07-AdvancedUsage.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/07-AdvancedUsage.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/08-Customization.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/08-Customization.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/11-Codecoverage.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/11-Codecoverage.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/12-ContinuousIntegration.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/12-ContinuousIntegration.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/AngularJS.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/AngularJS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Apc.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Apc.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Db.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Db.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/FTP.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/FTP.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Facebook.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Facebook.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Filesystem.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Filesystem.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Laravel5.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Laravel5.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Lumen.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Lumen.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/MongoDb.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/MongoDb.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Phalcon.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Phalcon.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/PhpBrowser.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/PhpBrowser.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/REST.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/REST.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Redis.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Redis.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/SOAP.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/SOAP.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Silex.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Silex.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Symfony.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Symfony.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/WebDriver.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/WebDriver.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Yii1.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Yii1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Yii2.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/Yii2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/ZF1.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/ZF1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/ZF2.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/ZF2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/ZendExpressive.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/modules/ZendExpressive.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/reference/Locator.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/reference/Locator.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/docs/reference/Stub.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/docs/reference/Stub.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/readme.md" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Codecept.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Codecept.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Command/Shared/Config.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Command/Shared/Config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Coverage/Subscriber/LocalServer.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Coverage/Subscriber/LocalServer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/Connector/Phalcon.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/Connector/Phalcon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/Connector/Yii2.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/Connector/Yii2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/Di.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/Di.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/Driver/Oci.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/Driver/Oci.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/InnerBrowser.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/InnerBrowser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/ParamsLoader.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/ParamsLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/Parser.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Lib/Parser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/Db.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/Db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/Filesystem.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/Filesystem.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/Laravel5.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/Laravel5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/PhpBrowser.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/PhpBrowser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/REST.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/REST.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/WebDriver.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/WebDriver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/Yii2.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Module/Yii2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/PHPUnit/ResultPrinter/HTML.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/PHPUnit/ResultPrinter/HTML.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Step.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Step.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Subscriber/Console.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Subscriber/Console.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Subscriber/GracefulTermination.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Subscriber/GracefulTermination.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/SuiteManager.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/SuiteManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Util/JsonArray.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Util/JsonArray.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Util/Locator.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Util/Locator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Util/Stub.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Util/Stub.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/cli/BootstrapCest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/cli/BootstrapCest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/cli/RunCest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/cli/RunCest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/data/app/controllers.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/data/app/controllers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/data/app/index.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/data/app/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/data/app/view/form/field_values.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/data/app/view/form/field_values.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/data/app/view/form/select_second.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/data/app/view/form/select_second.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/data/app/view/form/textarea.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/data/app/view/form/textarea.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/data/claypit/codeception.yml" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/data/claypit/codeception.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/data/claypit/tests/remote/DemoCept.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/data/claypit/tests/remote/DemoCept.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/data/claypit/tests/scenario/DataProviderCest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/data/claypit/tests/scenario/DataProviderCest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/support/CoverGuy.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/support/CoverGuy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Lib/ParserTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Lib/ParserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Module/AMQPTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Module/AMQPTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Module/DbTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Module/DbTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Module/FTPTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Module/FTPTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Module/PhpBrowserTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Module/PhpBrowserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Module/RestTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Module/RestTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Module/SFTPTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Module/SFTPTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Module/TestsForWeb.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Module/TestsForWeb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/StepTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/StepTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Util/JsonArrayTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Util/JsonArrayTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Util/LocatorTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/unit/Codeception/Util/LocatorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/codeception/codeception/tests/web/WebDriverTest.php" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/tests/web/WebDriverTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/.gitignore" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/.travis.yml" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/ChangeLog-4.0.md" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/ChangeLog-4.0.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/build.xml" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer.php" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/File.php" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/File.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/.php_cs" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/.php_cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/ChangeLog-4.8.md" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/ChangeLog-4.8.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/ChangeLog-5.7.md" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/ChangeLog-5.7.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/LICENSE" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/build.xml" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/composer.json" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestResult.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestResult.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Runner/Version.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Runner/Version.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/TextUI/Command.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/TextUI/Command.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/TextUI/TestRunner.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/TextUI/TestRunner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/XML.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/XML.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/TextUI/code-coverage-ignore.phpt" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/TextUI/code-coverage-ignore.phpt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/TextUI/help.phpt" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/TextUI/help.phpt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/TextUI/help2.phpt" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/TextUI/help2.phpt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/TextUI/testdox-xml.phpt" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/TextUI/testdox-xml.phpt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/Util/XMLTest.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/Util/XMLTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/customers/add.php" afterPath="$PROJECT_DIR$/views/customers/add.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,14 +289,36 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CustomersController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CustomersController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/CustomersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="394">
+              <caret line="97" column="38" lean-forward="false" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
               <folding>
                 <element signature="e#33#56#0#PHP" expanded="true" />
+                <element signature="e#397#980#0#PHP" expanded="false" />
+                <element signature="e#986#1392#0#PHP" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/customers/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_customer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/customers/_customer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -36,18 +326,28 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/customers/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#6#45#0#PHP" expanded="true" />
               </folding>
@@ -58,8 +358,18 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="170">
+              <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -76,6 +386,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rewr</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,8 +417,13 @@
         <option value="$PROJECT_DIR$/models/customer/CustomerRecord.php" />
         <option value="$PROJECT_DIR$/models/customer/PhoneRecord.php" />
         <option value="$PROJECT_DIR$/views/customer/add.php" />
+        <option value="$PROJECT_DIR$/views/customers/add.php" />
         <option value="$PROJECT_DIR$/config/web.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/../../bin/php/php5.6.25/php.ini" />
         <option value="$PROJECT_DIR$/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/views/index.php" />
+        <option value="$PROJECT_DIR$/views/customers/_customer.php" />
         <option value="$PROJECT_DIR$/controllers/CustomersController.php" />
       </list>
     </option>
@@ -114,11 +434,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="2d322e66-c153-49a3-8eac-7844346e038e" name="123" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
+    <option name="y" value="386" />
     <option name="width" value="1292" />
-    <option name="height" value="994" />
+    <option name="height" value="608" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -178,10 +504,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -201,20 +523,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crmapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crmapp" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -226,8 +534,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\crmapp\views\customers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Web Application.123">
+    <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -248,11 +565,23 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+      <method />
+    </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
       <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" server_name="123">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -284,6 +613,12 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <configuration default="false" name="123" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" server_name="123" start_url="/customers/add">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.123" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -298,34 +633,34 @@
       <workItem from="1484655072433" duration="4704000" />
       <workItem from="1484722675162" duration="13439000" />
       <workItem from="1484825662005" duration="15551000" />
-      <workItem from="1485151607437" duration="6420000" />
+      <workItem from="1485151607437" duration="20101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40114000" />
+    <option name="totallyTimeSpent" value="53795000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1292" height="994" extended-state="0" />
-    <editor active="false" />
+    <frame x="-7" y="386" width="1292" height="608" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34350282" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23276836" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,29 +676,11 @@
           <url>file://$PROJECT_DIR$/controllers/SiteController.php</url>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controllers/CustomersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#56#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/customer/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/customer/Customer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -432,6 +749,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -453,13 +771,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -573,14 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -601,14 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55">
           <caret line="294" column="9" lean-forward="true" selection-start-line="294" selection-start-column="9" selection-end-line="294" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/m170120_071043_unit_customer_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,6 +972,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/m170120_071043_unit_customer_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -686,36 +990,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="170">
+          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/CustomersController.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#33#56#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/ActiveForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="293" column="5" lean-forward="true" selection-start-line="293" selection-start-column="5" selection-end-line="293" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../bin/php/php5.6.25/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12063">
+          <caret line="168" column="10" lean-forward="false" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/customers/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#6#45#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/customers/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/customers/_customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/CustomersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="97" column="38" lean-forward="false" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+          <folding>
+            <element signature="e#33#56#0#PHP" expanded="true" />
+            <element signature="e#397#980#0#PHP" expanded="false" />
+            <element signature="e#986#1392#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>

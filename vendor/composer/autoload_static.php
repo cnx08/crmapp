@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit29a9e97ef49a5a2f318e5bb448c62b8e
+class ComposerStaticInit8b9c8f4ae5c5744b9a832100e80852a3
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -272,7 +272,7 @@ class ComposerStaticInit29a9e97ef49a5a2f318e5bb448c62b8e
         'PHPUnit_Framework_Constraint_TraversableContains' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Constraint/TraversableContains.php',
         'PHPUnit_Framework_Constraint_TraversableContainsOnly' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Constraint/TraversableContainsOnly.php',
         'PHPUnit_Framework_Constraint_Xor' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Constraint/Xor.php',
-        'PHPUnit_Framework_CoveredCodeNotExecutedException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/PHPUnit_Framework_CoveredCodeNotExecutedException.php',
+        'PHPUnit_Framework_CoveredCodeNotExecutedException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/CoveredCodeNotExecutedException.php',
         'PHPUnit_Framework_Error' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Error.php',
         'PHPUnit_Framework_Error_Deprecated' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Error/Deprecated.php',
         'PHPUnit_Framework_Error_Notice' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Error/Notice.php',
@@ -284,7 +284,7 @@ class ComposerStaticInit29a9e97ef49a5a2f318e5bb448c62b8e
         'PHPUnit_Framework_IncompleteTestCase' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/IncompleteTestCase.php',
         'PHPUnit_Framework_IncompleteTestError' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/IncompleteTestError.php',
         'PHPUnit_Framework_InvalidCoversTargetException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/InvalidCoversTargetException.php',
-        'PHPUnit_Framework_MissingCoversAnnotationException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/PHPUnit_Framework_MissingCoversAnnotationException.php',
+        'PHPUnit_Framework_MissingCoversAnnotationException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/MissingCoversAnnotationException.php',
         'PHPUnit_Framework_MockObject_BadMethodCallException' => __DIR__ . '/..' . '/phpunit/phpunit-mock-objects/src/Framework/MockObject/Exception/BadMethodCallException.php',
         'PHPUnit_Framework_MockObject_Builder_Identity' => __DIR__ . '/..' . '/phpunit/phpunit-mock-objects/src/Framework/MockObject/Builder/Identity.php',
         'PHPUnit_Framework_MockObject_Builder_InvocationMocker' => __DIR__ . '/..' . '/phpunit/phpunit-mock-objects/src/Framework/MockObject/Builder/InvocationMocker.php',
@@ -673,10 +673,10 @@ class ComposerStaticInit29a9e97ef49a5a2f318e5bb448c62b8e
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit29a9e97ef49a5a2f318e5bb448c62b8e::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit29a9e97ef49a5a2f318e5bb448c62b8e::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit29a9e97ef49a5a2f318e5bb448c62b8e::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit29a9e97ef49a5a2f318e5bb448c62b8e::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8b9c8f4ae5c5744b9a832100e80852a3::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8b9c8f4ae5c5744b9a832100e80852a3::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit8b9c8f4ae5c5744b9a832100e80852a3::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit8b9c8f4ae5c5744b9a832100e80852a3::$classMap;
 
         }, null, ClassLoader::class);
     }
