@@ -12,7 +12,7 @@ class CRMUserSteps extends \AcceptanceTester
     function fillInPhoneFieldWithDataFrom($customer_data)
     {
         $I = $this;
-        $I->fillField('PhoneRecord[number]',$customer_data['PhoneRecord[number]']);
+        $I->fillField('phone_number',$customer_data['PhoneRecord[number]']);
     }
 
     function clickSearchButton()
