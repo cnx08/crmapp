@@ -11,4 +11,13 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false
         ]
-    ],];
+    ],
+    'modules' => [
+        'gii' => [
+            'class' => 'yii\gii\Module',
+            'allowedIPs' => ['*']
+        ]
+    ],
+
+    'extensions' => require(__DIR__.'/../vendor/yiisoft/extensions.php')
+];
