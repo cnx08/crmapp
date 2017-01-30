@@ -1,0 +1,5 @@
+tests\acceptance\DeleteServiceCept.php
+tests\acceptance\EditServiceCept.php
+tests\acceptance\QueryCustomerByPhoneNumberCept.php
+tests\acceptance\RegisterNewServiceCept.php
+tests\acceptance\SmokeTestCept.php

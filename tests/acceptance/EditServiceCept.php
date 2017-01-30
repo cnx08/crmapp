@@ -1,5 +1,7 @@
-<?php 
-$I = new AcceptanceTester\CRMServicesManagementSteps($scenario);
+<?php
+use Step\Acceptance\CRMServicesManagementSteps;
+$I = new CRMServicesManagementSteps($scenario);
+//$I = new AcceptanceTester\CRMServicesManagementSteps($scenario);
 $I->wantTo('edit existing Service record');
 
 $I->amInListServicesUi();

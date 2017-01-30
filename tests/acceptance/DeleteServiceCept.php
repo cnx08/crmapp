@@ -1,5 +1,7 @@
-<?php 
-$I = new AcceptanceTester\CRMServicesManagementSteps($scenario);
+<?php
+use Step\Acceptance\CRMServicesManagementSteps;
+$I = new CRMServicesManagementSteps($scenario);
+//$I = new AcceptanceTester\CRMServicesManagementSteps($scenario);
 $I->wantTo('check that if I cancel deletion nothing happens');
 
 $I->amInListServicesUi();
