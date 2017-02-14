@@ -31,6 +31,7 @@ class CRMOperatorSteps extends \AcceptanceTester
     {
         $I = $this;
         $I->click('Submit');
+        $I->wait(1);
     }
 
     public function seeIAmInListCustomersUi()
