@@ -13,5 +13,5 @@ modules:
         - WebDriver:
             url: http://localhost
             browser: firefox
-            host: http://localhost
+            host: localhost
             port: 4444

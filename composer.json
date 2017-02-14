@@ -3,7 +3,8 @@
         "codeception/codeception": "*",
         "fzaninotto/faker": "*",
         "yiisoft/yii2": "*",
-        "yiisoft/yii2-gii": "*"
+        "yiisoft/yii2-gii": "*",
+        "facebook/webdriver": "^1.3"
     },
     "extra": {
         "asset-installer-paths": {
