@@ -5,7 +5,7 @@ class SiteController extends Controller
 {
     public function actionIndex()
     {
-        return 'Our CRM';
+        return $this->render('homepage');
     }
 
     public function actionDocs()

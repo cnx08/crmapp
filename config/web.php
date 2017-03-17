@@ -16,6 +16,17 @@ return [
                 'md' => [
                     'class' => 'app\utilities\MarkdownRenderer'
                 ]
+            ],
+            'theme' => [
+                'class' => yii\base\Theme::className(),
+                'basePath' => '@app/themes/snowy'
+            ]
+        ],
+        'response' => [
+            'formatters' => [
+                'yaml' => [
+                    'class' => 'app\utilities\YamlResponseFormatter'
+                ]
             ]
         ]
     ],
