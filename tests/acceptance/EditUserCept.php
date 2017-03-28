@@ -2,25 +2,25 @@
 use Step\Acceptance\CRMUsersManagementSteps;
 $I = new CRMUsersManagementSteps($scenario);
 //$I = new AcceptanceTester\CRMUsersManagementSteps($scenario);
-$I->wantTo('edit existing Service record');
+$I->wantTo('edit existing User record');
 
 $I->amInListUsersUi();
-$I->clickOnRegisterNewServiceButton();
-$I->seeIAmInAddServiceUi();
-$first_service = $I->imagineService();
-$I->fillServiceDataForm($first_service);
-$I->submitServiceDataForm();
+$I->clickOnRegisterNewUserButton();
+$I->seeIAmInAddUserUi();
+$first_user = $I->imagineUser();
+$I->fillUserDataForm($first_user);
+$I->submitUserDataForm();
 
 $I->amInListUsersUi();
-$I->seeEditButtonBesideService($first_service);
-$I->clickEditButtonBesideService($first_service);
+$I->seeEditButtonBesideUser($first_user);
+$I->clickEditButtonBesideUser($first_user);
 
-$I->seeEditServiceUi();
-$new_data = $I->imagineService();
-$I->fillServiceDataForm($new_data);
-$I->submitServiceDataForm();
+$I->seeEditUserUi();
+$new_data = $I->imagineUser();
+$I->fillUserDataForm($new_data);
+$I->submitUserDataForm();
 
 $I->amInListUsersUi();
-$I->seeServiceInList($new_data);
-$I->dontSeeServiceInList($first_service);
+$I->seeUserInList($new_data);
+$I->dontSeeUserInList($first_user);
 

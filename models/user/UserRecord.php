@@ -27,7 +27,7 @@ class UserRecord extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['username', 'password'], 'string', 'max' => 255],
+            [['username', 'password', 'auth_key'], 'string', 'max' => 255],
             [['username'], 'unique'],
         ];
     }
@@ -51,6 +51,9 @@ class UserRecord extends \yii\db\ActiveRecord
         if ($this->isAttributeChanged('password'))
         $this->password = Yii::$app->security->generatePasswordHash($this->password);
 
+        if($this->isNewRecord)
+            $this->auth_key = Yii::$app->security->generateRandomString($length = 255);
+
         return $return;
     }
 
@@ -64,8 +67,21 @@ class UserRecord extends \yii\db\ActiveRecord
         return static::findOne($id);
     }
 
+    public static function findIdentityByAccessToken(
+        $token,
+        $type = null
+    ) {
+        throw new NotSupportedException(
+            'You can only login by username/password pair for now.');
+    }
+
     public function getAuthKey()
     {
         return $this->auth_key;
+    }
+
+    public function validateAuthKey($authKey)
+    {
+        return $this->getAuthKey() === $authKey;
     }
 }

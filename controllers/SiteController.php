@@ -12,4 +12,16 @@ class SiteController extends Controller
     {
         return $this->render('docindex.md');
     }
+
+    public function actionLogin()
+    {
+        if (!Yii::$app->user->isGuest)
+            return $this->goHome();
+
+        $model = new LoginForm();
+        if ($model->load(Yii::$app->request->post()) and $model->login())
+            return $this->goBack();
+
+        return $this->render('login', compact('model'));
+    }
 }

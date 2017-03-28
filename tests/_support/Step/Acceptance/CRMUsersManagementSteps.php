@@ -46,7 +46,7 @@ class CRMUsersManagementSteps extends \AcceptanceTester //CRMGuestSteps
     function seeUserInList($user_data)
     {
         $I = $this;
-        $I->see($user_data['UserRecord[name]'], self::USERSS_LIST_SELECTOR);
+        $I->see($user_data['UserRecord[username]'], self::USERSS_LIST_SELECTOR);
     }
 
     function submitUserDataForm()
@@ -80,7 +80,7 @@ class CRMUsersManagementSteps extends \AcceptanceTester //CRMGuestSteps
     public function dontSeeUserInList($user_data)
     {
         $I = $this;
-        $I->dontSee($user_data['UserRecord[name]'],
+        $I->dontSee($user_data['UserRecord[username]'],
             self::USERSS_LIST_SELECTOR
         );
     }
@@ -89,7 +89,7 @@ class CRMUsersManagementSteps extends \AcceptanceTester //CRMGuestSteps
     {
         $I = $this;
         $xpath = $this->makeXpathForButtonNearUserName(
-            $user_data['UserRecord[name]'],
+            $user_data['UserRecord[username]'],
             'Update'
         );
         $I->seeElement($xpath);
@@ -111,7 +111,7 @@ class CRMUsersManagementSteps extends \AcceptanceTester //CRMGuestSteps
     {
         $I = $this;
         $xpath = $this->makeXpathForButtonNearUserName(
-            $user_data['UserRecord[name]'],
+            $user_data['UserRecord[username]'],
             'Update'
         );
         $I->click($xpath);
@@ -139,7 +139,7 @@ class CRMUsersManagementSteps extends \AcceptanceTester //CRMGuestSteps
     {
         $I = $this;
         $xpath = $this->makeXpathForButtonNearUserName(
-            $user_data['UserRecord[name]'],
+            $user_data['UserRecord[username]'],
             'Delete'
         );
         $I->seeElement($xpath);
@@ -149,7 +149,7 @@ class CRMUsersManagementSteps extends \AcceptanceTester //CRMGuestSteps
     {
         $I = $this;
         $xpath = $this->makeXpathForButtonNearUserName(
-            $user_data['UserRecord[name]'],
+            $user_data['UserRecord[username]'],
             'Delete'
         );
         $I->click($xpath);

@@ -1,6 +1,6 @@
 <?php
 
-namespace app\models\user;
+namespace app\controllers;
 
 use Yii;
 use app\models\user\UserRecord;
