@@ -16,6 +16,15 @@ app\assets\ApplicationUiAssetBundle::register($this);
     <body>
     <?php $this->beginBody() ?>
     <div class="container">
+        <div class="authorization-indicator">
+            <?php if (Yii::$app->user->isGuest):?>
+                <?= HTML::tag('span','guest');?>
+                <?=Html::a('login', '/site/login');?>
+            <?php else:?>
+                <?= HTML::tag('span',Yii::$app->user->identity->username);?>
+                <?=Html::a('logout', '/site/logout');?>
+            <?php endif;?>
+        </div>
         <?= $content ?>
         <footer class="footer"><?= Yii::powered();?></footer>
     </div>
