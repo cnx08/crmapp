@@ -21,6 +21,7 @@ class m170120_081013_unit_phone_table extends Migration
     {
         $this->dropForeignKey('customer_phone_numbers', 'phone');
         $this->dropTable('phone');
+        $this->dropTable('phone2');
     }
 
     /*
